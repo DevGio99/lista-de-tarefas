@@ -1,0 +1,132 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body{
+    background-color: #4772ff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+header {
+    position: relative;
+    top: 0;
+    height: 35px;
+    width: 100%;
+    /* margin-bottom: 5vh; */
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #002077;
+    border-bottom: 3px solid #6790ff;
+}
+
+#head_menu{
+    position: relative;
+    left: 60%;
+    bottom: 2px;
+    margin: auto;
+    color: white;
+}
+
+#menu{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#menu li{
+    margin-left: 15px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    background-color: #fdfeff;
+    /* padding: 10px; */
+    /* border-radius: 15px; */
+    display: flex;
+    /* box-shadow: 1px 0  10px #000000; */
+
+}
+
+.main_container{
+ 
+    background-color: #6790ff;
+    width: 300px;
+    height: 100%;
+    border-right:  1px solid transparent;
+    /* box-shadow: 1px 0  10px #00000046; */
+}
+
+.perfil_content{
+    height: 40%;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.027);
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.perfil_content p {
+    margin-top: 20px;
+}
+
+.profile_projects{
+   margin-top: 15px; 
+    height: 60%;
+    padding: 15px;
+}
+
+.projects{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.projects li{
+    margin-top: 5px;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bolder;
+    width: 800px;
+    height: 90%;
+    margin: 10px auto 10px auto;
+    padding: 5px;
+    
+}
+
+.task_list{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    /* height: 70%; */
+}
+
+.task_list li{
+    width: 800px;
+}
+
+.btn_save{
+    width: 800px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #7499ff;
+    position: relative;
+    color: rgba(0, 0, 0, 0.356);
+    text-align: left;
+    padding: 10px;
+}
